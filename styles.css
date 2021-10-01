@@ -4,6 +4,15 @@
     color: #2D3748;
 }
 
+.container {
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'main main sidebar'
+    'footer footer footer ';
+    grid-gap: 80px;
+}
+
 header {
     background-color: #63B3ED;
     display: flex;
@@ -12,6 +21,7 @@ header {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    grid-area: header;
 }
 
 header img {
@@ -29,6 +39,11 @@ header h1 {
 header p {
     color: #FFFFFF;
     margin: 0px;
+}
+
+main {
+    grid-area: main;
+    margin-left: 80px;
 }
 
 .post-title {
@@ -60,6 +75,8 @@ article ~ article {
 
 aside {
     clear: both;
+    grid-area: sidebar;
+    margin-right: 80px;
 }
 
 #social-heading, #archives-heading {
@@ -85,6 +102,7 @@ aside h3 {
 
 footer {
     background-color: #2C5282;
+    grid-area: footer;
 }
 
 footer p {
