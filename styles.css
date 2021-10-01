@@ -6,6 +6,12 @@
 
 header {
     background-color: #63B3ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 header img {
@@ -16,10 +22,13 @@ header h1 {
     color: #FFFFFF;
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    margin: 0px;
 }
 
 header p {
     color: #FFFFFF;
+    margin: 0px;
 }
 
 .post-title {
@@ -29,6 +38,28 @@ header p {
 
 .authorship {
     color: #718096;
+}
+
+.post-image {
+    padding: 10px;
+}
+
+#bpimg55 {
+    width: 180px;
+    float: left;
+}
+
+#bpimg54 {
+    width: 250px;
+    float: right;
+}
+
+article ~ article {
+    clear: both;
+}
+
+aside {
+    clear: both;
 }
 
 #social-heading, #archives-heading {
