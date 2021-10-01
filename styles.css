@@ -1,0 +1,62 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    font-size: 18px;
+    color: #2D3748;
+}
+
+header {
+    background-color: #63B3ED;
+}
+
+header img {
+    border-radius: 100%;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header p {
+    color: #FFFFFF;
+}
+
+.post-title {
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.authorship {
+    color: #718096;
+}
+
+#social-heading, #archives-heading {
+    color: #48BB78;
+}
+
+#about-heading {
+    color: #000000;
+}
+
+aside h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about {
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+.social-link, .archives-link {
+    color: #4299E1;
+}
+
+footer {
+    background-color: #2C5282;
+}
+
+footer p {
+    color: #FFFFFF;
+    padding: 30px;
+}
